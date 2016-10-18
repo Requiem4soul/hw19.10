@@ -20,11 +20,11 @@ namespace Rextester
 
 		{	
 
-			for (int i = 10; i < 100; i++) {
+			for (int a = 10; a < 100; a++) {
 
-				if (i % 10 == 3) {
+				if (a % 10 == 3) {
 
-					Console.WriteLine ("{0}", i);
+					Console.WriteLine ("{0}", a);
 
 				}
 

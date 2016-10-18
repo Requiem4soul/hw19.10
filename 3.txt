@@ -24,19 +24,19 @@ namespace Rextester
 
 			double a = 0.5;
 
-			double s = 0;
+			double b = 0;
 
-			double n;
+			double c;
 
-			n = double.Parse(Console.ReadLine());
+			c = double.Parse(Console.ReadLine());
 
-			for (double i = 1; i <= n; i++) {
+			for (double d = 1; d <= c; d++) {
 
-				s += Math.Pow (a, i);
+				b += Math.Pow (a, d);
 
 			}
 
-			Console.WriteLine ("{0}", s);
+			Console.WriteLine ("{0}", b);
 
 			Console.Read();
 

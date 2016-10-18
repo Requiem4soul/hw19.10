@@ -22,13 +22,13 @@ namespace Rextester
 
 			int a = 100;
 
-			int j = 2;
+			int b = 2;
 
 			while (a < 1000) {
 
-				for  (j = 2; j <= a; j++) {
+				for  (b = 2; b <= a; b++) {
 
-					if (a % j == 0) {
+					if (a % b == 0) {
 
 						break;
 
@@ -38,11 +38,11 @@ namespace Rextester
 
 				}
 
-				if (j == a) {
+				if (b == a) {
 
-					Console.WriteLine ("{0}", j);
+					Console.WriteLine ("{0}", b);
 
-					j = 2;
+					b = 2;
 
 				}
 
